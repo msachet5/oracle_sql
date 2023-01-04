@@ -1,0 +1,8 @@
+-- Day 1 01-01-2023
+-- Encountered error, "IO error: The network adapter could not establish the connection"
+-- Was occuring due to not running status of ORACLEServiceORCL in task manager, need to check for ORACLEOraDB19Home1TNSListner
+-- We can run lsnrctl services and lsnrctl status and lsnrctl start in cmd to check the status of the services and start them.
+-- SQL is not case-sensitive
+-- The SQL statements can be terminated by a semi-colon or a forward slash
+-- SQL plus requires us to write a semi-colon or forward slash after every statement.
+-- To connect hr to SQL+, we write "sqlplus hr/hr@orclpdb" which connects hr to pluggable database.
